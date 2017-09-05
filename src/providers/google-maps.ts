@@ -15,9 +15,10 @@ export class GoogleMaps {
   mapLoadedObserver: any;
   markers: any = [];
   apiKey: string;
+  infoWindows: any;
 
   constructor(public connectivityService: Connectivity) {
-
+    this.infoWindows = [];
   }
 
   init(mapElement: any, pleaseConnect: any): Promise<any> {
@@ -157,9 +158,37 @@ export class GoogleMaps {
 
   }
 
-  addMarker(lat: number, lng: number): void {
+  closeAllInfoWindows() {
+    for(let window of this.infoWindows) {
+      window.close();
+    }
+  }
 
-    let latLng = new google.maps.LatLng(lat, lng);
+  addInfoWindowToMarker(marker,location) {
+    var infoWindowContent = '<div id="content"><h1 id="firstHeading" class="firstHeading">' +location.title +  '</h1> <h3>Hygiene Score: ' + location.Hygiene_Score +'</h3><div class="stars"><form action="">'+
+    '<input class="star star-5" id="star-5" type="radio" name="star"/>'+
+    '<label class="star star-5" for="star-5"></label>'+
+    '<input class="star star-4" id="star-4" type="radio" name="star"/>'+
+    '<label class="star star-4" for="star-4"></label>'+
+    '<input class="star star-3" id="star-3" type="radio" name="star"/>'+
+    '<label class="star star-3" for="star-3"></label>'+
+    '<input class="star star-2" id="star-2" type="radio" name="star"/>'+
+    '<label class="star star-2" for="star-2"></label>'+
+    '<input class="star star-1" id="star-1" type="radio" name="star"/>'+
+    '<label class="star star-1" for="star-1"></label></form></div>'+'</div>'+ '';
+    var infoWindow = new google.maps.InfoWindow({
+      content: infoWindowContent
+    });
+    marker.addListener('click', () => {
+      this.closeAllInfoWindows();
+      infoWindow.open(this.map, marker);
+    });
+    this.infoWindows.push(infoWindow);
+  }
+
+  addMarker(location): void {
+
+    let latLng = new google.maps.LatLng(location.latitude, location.longitude);
 
     let marker = new google.maps.Marker({
       map: this.map,
@@ -167,8 +196,15 @@ export class GoogleMaps {
       position: latLng
     });
 
-    this.markers.push(marker);  
+    // marker.setMap(this.map);
+    this.markers.push(marker); 
+    this.addInfoWindowToMarker(marker,location);
+     
       
   }
 
 }
+
+/*
+
+*/

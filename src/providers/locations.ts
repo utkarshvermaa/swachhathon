@@ -37,8 +37,8 @@ export class Locations {
 	applyHaversine(locations){
 
 		let usersLocation = {
-			lat: 40.713744, 
-			lng: -74.009056
+			lat: 28.7501, 
+			lng: 77.1177
 		};
 
 		locations.map((location) => {

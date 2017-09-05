@@ -45,6 +45,21 @@
 			"title": "Tribeca Grill",
 			"latitude": 40.719518,
 			"longitude": -74.009807
+		},
+		{
+			"title": "DelTech Univ.",
+			"latitude": 28.7501,
+			"longitude": 77.1177
+		},
+		{
+			"title": "Apna Adda",
+			"latitude": 40.719518,
+			"longitude": -74.009807
+		},
+		{
+			"title": "Kya Scene Hai",
+			"latitude": 40.719518,
+			"longitude": -74.009807
 		}
 	]
 }

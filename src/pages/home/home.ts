@@ -13,7 +13,7 @@ export class HomePage {
   tab1Root: any = Profile;
   tab2Root: any = MapPage;
   tab3Root: any = ListPage;
-  tab4page: any = Complaints;
+  tab4Root: any = Complaints;
 
 
   constructor(){

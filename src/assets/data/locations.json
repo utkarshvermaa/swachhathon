@@ -2,55 +2,55 @@
 	"locations": [
 
 		{
-			"title": "City Hall",
+			"title": "Apsara Retaurant",
 			"Hygiene_Score": 5,
-			"latitude": 40.713484,
-			"longitude": -74.006739
+			"latitude": 28.740154,
+			"longitude": 77.118505
 		},
 		{
-			"title": "Brooklyn Bridge",
+			"title": "Puratan Retaurant",
 			"Hygiene_Score": 5,
-			"latitude": 40.712801,
-			"longitude": -74.004936
+			"latitude": 28.734502,
+			"longitude": 77.114174
 		},
 		{
-			"title": "NYPD",
+			"title": "McDonalds Retaurant",
 			"Hygiene_Score": 5,
-			"latitude": 40.712199,
-			"longitude": -74.001675
+			"latitude": 28.734612,
+			"longitude": 77.113535
 		},
 		{
-			"title": "The Woolworth Building",
+			"title": "Dominoes Unity One",
 			"Hygiene_Score": 5,
-			"latitude": 40.712443,
-			"longitude": -74.008369
+			"latitude": 28.714913,
+			"longitude": 77.1162729
 		},
 		{
-			"title": "Foley Square",
+			"title": "Wah ji Wah Retaurant",
 			"Hygiene_Score": 5,
-			"latitude": 40.714541,
-			"longitude": -74.003091
+			"latitude": 28.710611,
+			"longitude": 77.133327
 		},
 		{
-			"title": "Sazon",
+			"title": "SGF Retaurant",
 			"Hygiene_Score": 5,
-			"latitude": 40.715631,
-			"longitude": -74.008498
+			"latitude": 28.700946,
+			"longitude": 77.116593
 		},
 		{
-			"title": "DelTech Univ.",
+			"title": "Delhi Technological University",
 			"Hygiene_Score": 5,
 			"latitude": 28.7501,
 			"longitude": 77.1177
 		},
 		{
-			"title": "Apna Adda",
+			"title": "Sulabh Shauchalaya",
 			"Hygiene_Score": 5,
 			"latitude": 28.741480, 
 			"longitude": 77.120709
 		},
 		{
-			"title": "Kya Scene Hai",
+			"title": "Mata Vaishno Punjabi Dhaba",
 			"Hygiene_Score": 5,
 			"latitude": 28.743068,
 			"longitude": 77.117707

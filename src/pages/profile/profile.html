@@ -10,7 +10,7 @@
  
       <ion-card-content>
  
-        <ion-list no-lines>
+        <ion-list no-lines> 
  
           <ion-item>
             <ion-label floating>email</ion-label>
@@ -28,6 +28,8 @@
  
     </ion-card>
  
-    <button ion-button icon-right outline color="light">Next <ion-icon name="arrow-forward"></ion-icon></button>
+    <button ion-button icon-right outline color="light" (click)="goToMapPage()">Login(User) <ion-icon name="arrow-forward"></ion-icon></button>
+    <button ion-button icon-right outline color="light" (click)="goToAdminPage()">Admin Login <ion-icon name="arrow-forward"></ion-icon></button>
+    
  
 </ion-content>

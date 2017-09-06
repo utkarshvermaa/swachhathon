@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { MapPage } from '../map/map';
+import { AdminPagePage } from '../admin/admin';
 
 import md5 from 'crypto-md5';
  
@@ -24,6 +25,9 @@ export class Profile {
 
     goToMapPage(){
         this.navCtrl.push(MapPage);
+    }
+    goToAdminPage(){
+        this.navCtrl.push(AdminPagePage);
     }
  
 }

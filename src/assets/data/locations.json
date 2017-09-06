@@ -54,6 +54,36 @@
 			"Hygiene_Score": 5,
 			"latitude": 28.743068,
 			"longitude": 77.117707
+		},
+		{
+			"title": "The Grand New Delhi",
+			"Hygiene_Score": 5,
+			"latitude": 28.538480,
+			"longitude": 77.151704
+		},
+		{
+			"title": "Ambience Mall Vasant Kunj",
+			"Hygiene_Score": 4,
+			"latitude": 28.541218,
+			"longitude": 77.154885
+		},
+		{
+			"title": "Indian Oil Pump",
+			"Hygiene_Score": 3,
+			"latitude": 28.540883,
+			"longitude": 77.153914 
+		},
+		{
+			"title": "China Bowl",
+			"Hygiene_Score": 4,
+			"latitude": 28.533928,
+			"longitude": 77.152101
+		},
+		{
+			"title": "Captain Grub",
+			"Hygiene_Score": 4,
+			"latitude": 28.533895,
+			"longitude": 77.150491
 		}
 	]
 }

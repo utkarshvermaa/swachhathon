@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { Profile } from '../profile/profile';
+import { AlertController } from 'ionic-angular';
+
+
 
 /*
   Generated class for the AdminPage page.
@@ -14,10 +17,34 @@ import { Profile } from '../profile/profile';
 })
 export class AdminPagePage {
 
-  constructor(public navCtrl: NavController) {}
+  constructor(public navCtrl: NavController, private alertCtrl: AlertController) {}
 
   ionViewDidLoad() {
     console.log('Hello AdminPagePage Page');
   }
+
+//   launch(url) {
+//     this.platform.ready().then(() => {
+//         cordova.InAppBrowser.open(url, "_system", "location=true");
+//     });
+// }
+
+presentAlert() {
+  let alert = this.alertCtrl.create({
+    title: 'Lottery User Generated',
+    subTitle: 'Success! UserId:25234 has been selected as the winner for this month ',
+    buttons: ['Ok']
+  });
+  alert.present();
+} 
+
+presentAlert1() {
+  let alert = this.alertCtrl.create({
+    title: 'Report Generated',
+    subTitle: 'Check at https://goo.gl/jwkkSc  ',
+    buttons: ['Ok']
+  });
+  alert.present();
+} 
 
 }

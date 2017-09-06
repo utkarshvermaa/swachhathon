@@ -9,13 +9,13 @@
 		},
 		{
 			"title": "Puratan Retaurant",
-			"Hygiene_Score": 5,
+			"Hygiene_Score": 2,
 			"latitude": 28.734502,
 			"longitude": 77.114174
 		},
 		{
 			"title": "McDonalds Retaurant",
-			"Hygiene_Score": 5,
+			"Hygiene_Score": 4,
 			"latitude": 28.734612,
 			"longitude": 77.113535
 		},
@@ -27,7 +27,7 @@
 		},
 		{
 			"title": "Wah ji Wah Retaurant",
-			"Hygiene_Score": 5,
+			"Hygiene_Score": 1,
 			"latitude": 28.710611,
 			"longitude": 77.133327
 		},
@@ -45,7 +45,7 @@
 		},
 		{
 			"title": "Sulabh Shauchalaya",
-			"Hygiene_Score": 5,
+			"Hygiene_Score": 3,
 			"latitude": 28.741480, 
 			"longitude": 77.120709
 		},
@@ -57,7 +57,7 @@
 		},
 		{
 			"title": "The Grand New Delhi",
-			"Hygiene_Score": 5,
+			"Hygiene_Score": 3,
 			"latitude": 28.538480,
 			"longitude": 77.151704
 		},

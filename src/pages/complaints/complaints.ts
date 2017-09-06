@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { AlertController } from 'ionic-angular';
+
 
 /*
   Generated class for the ComplaintsPage page.
@@ -13,10 +15,18 @@ import { NavController } from 'ionic-angular';
 })
 export class Complaints {
 
-  constructor(public navCtrl: NavController) {}
+  constructor(public navCtrl: NavController, private alertCtrl: AlertController) {}
 
   ionViewDidLoad() {
     console.log('Hello Complaints Page');
   }
+  presentAlert() {
+    let alert = this.alertCtrl.create({
+      title: 'Complaint',
+      subTitle: 'Success ',
+      buttons: ['Ok']
+    });
+    alert.present();
+  } 
 
 }

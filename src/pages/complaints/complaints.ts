@@ -8,7 +8,7 @@ import { NavController } from 'ionic-angular';
   Ionic pages and navigation.
 */
 @Component({
-  selector: 'page-complaints',
+  selector: 'page-home',
   templateUrl: 'complaints.html'
 })
 export class Complaints {
@@ -16,7 +16,7 @@ export class Complaints {
   constructor(public navCtrl: NavController) {}
 
   ionViewDidLoad() {
-    console.log('Hello ComplaintsPagePage Page');
+    console.log('Hello Complaints Page');
   }
 
 }

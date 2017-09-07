@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "41576723835",
+    "firebase_url": "https://swachhathon-e1e7f.firebaseio.com",
+    "project_id": "swachhathon-e1e7f",
+    "storage_bucket": "swachhathon-e1e7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41576723835:android:3863a6d58f788b69",
+        "android_client_info": {
+          "package_name": "com.ionicframework.ionic2nearby914992"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41576723835-u3eqpnh5e8oku2lh75rs4h2ikhir99m9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwosEO9mfI_Jz1bNytlfQHDmGa4EmjTQc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
